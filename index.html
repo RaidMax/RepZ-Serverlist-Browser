@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<title>RepZ IW4M Serverlist</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='resources/css/style.css' rel='stylesheet' type='text/css'>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
+	<script src='resources/js/listeners.js'></script>
+	<script src='resources/js/iw4.js'></script>
+	<script src='resources/js/util.js'></script>
+	<meta name='robots' content='index, follow'>
+	<meta name="description" content='Online serverlist for RepZ IW4M by RaidMax'>
+	<meta name='keywords' content='Repz, serverlist, iw4m, modern warfare 2, repz iw4, call of duty, servers'>
+	<meta name="viewport" content="width=950, initial-scale=1">
+</head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <div id="title">
+                    <h1><span class="titleLight">REPZ</span><span class="titleDark">IW4</span><span class="titleLight">MODIFICATION</span></h1>
+                </div>      
+                <div id="subtitle">
+                    <h3 style="float: left;">RepZ API APPEARS OFFLINE!</h3>
+					<div id="totalPlayers">&mdash; <span id="totalPlayerCount">_</span> Total Players</div>
+					<div style="clear: both;"></div>
+                </div> 
+                <hr />   
+            </div>
+            <div id="leftBar">
+                <div class="blueBar"></div>
+                <div id="fullServers" class="textBar">Full</div>
+                <div id="fullServersCount" class="textBar">_</div>
+                <div class="blueBar"></div>
+                <div id="emptyServers" class="textBar">Empty</div>
+                <div id="emptyServersCount" class="textBar">_</div>
+            </div>
+            <div id="searchOptions">
+                <form id="filter">
+                    <input type="text" name="serverName" id="searchName" placeholder="Server Name"/>
+                    <input type="text" name="mapName" id="searchMap" placeholder="Map Name" />
+					<input type="text" name="gameType" id="searchGametype" placeholder="Gametype" />
+                    <input type="checkbox" name="searchEmpty" id="searchEmpty" />
+                    <label for="searchEmpty">Occupied</label>
+                    <input type="checkbox" name="searchHC" id="searchHC"/>
+                    <label for="searchHC">Hardcore</label>
+                    <input type="checkbox" name="searchMod" id="searchMod" />
+                    <label for="searchMod">Stock</label>
+                </form>
+            </div>
+            <div id="serverBasket">
+                
+            </div>
+            <div id="serverCount" class="largestText"></div>
+        </div>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-72658247-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+    </body>
+</html>
