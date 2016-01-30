@@ -1,10 +1,11 @@
-// event fired when user types in any of the paramater boxes
+// event fired when user types in any of the parameter boxes
 $('#filter input').on('input', function (e) {
     filterList($(this));
 });
 
 // event fired when user changes a text box  
 $('#filter input:checkbox').change(function () {
+	alert('test');
     filterList($(this));
 });
 
