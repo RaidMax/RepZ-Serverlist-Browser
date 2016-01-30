@@ -5,7 +5,6 @@ $('#filter input').on('input', function (e) {
 
 // event fired when user changes a text box  
 $('#filter input:checkbox').change(function () {
-	alert('test');
     filterList($(this));
 });
 
